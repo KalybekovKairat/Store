@@ -1,0 +1,20 @@
+@media screen andv(max-width:1024px) {
+    .footet .footer__row {
+        flex-wrap: wrap;
+    }
+    .footet .footer__row .col-3{
+    width: 46%;
+    }
+}
+
+@media screen andv(max-width:576px) {
+    .footet .footer__row .col-3{
+        width: 100%; 
+}
+.social {
+    margin-bottom: 20px;
+}
+
+.footet .footer__row .sran {
+    margin-bottom: 20px;
+}

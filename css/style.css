@@ -1,0 +1,43 @@
+@import "./header/index.css";
+@import "./hero/index.css";
+@import "./offers/index.css";
+@import "./invitation/index.css";
+@import "./partners/index.css";
+@import "./footer/index.css";
+@import "./mobile/index.css";
+
+body {
+  margin: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  color: #000000;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1110px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+main {
+  background: #E5E5E5;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+
+.col-7 {
+  width: 58.88%;
+}

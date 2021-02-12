@@ -1,0 +1,24 @@
+@import "./header/index.css";
+@import "./hero/index.css";
+@import "./offers/index.css";
+@import "./invitation/index.css";
+@import "./partners/index.css";
+@import "./footer/index.css";
+
+@media screen and (max-width:1024px) {
+    .condaiter {
+        padding: 0 20px;
+    }
+    .col-3 {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:576px) {
+ .col-6 {
+     width: 100%;
+ }
+ .col-3{
+     width: 100%;
+ }
+}
